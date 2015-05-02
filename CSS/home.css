@@ -4,19 +4,29 @@ html, body {
 	margin:0;padding:0;height:100%;
 }
 
-.container{
-	background-color: red;
+.container{ 
 	height: 100%;
 	width: 100%
 	}
 
 .section, .footer{
 	height: 100%;
-	background-color: blue;
 	position: relative;
 	top: -20px;
 	width: 103%;
-	left: -1.5%
+	left: -1.5%;
+	padding-top: 3%
+}
+
+/*Universal Text Alignments*/
+.section-heading-box{
+	text-align: center;
+	margin-bottom: 5%
+}
+
+.section-head{
+	font-weight: 300;
+	font-size: 4em
 }
 
 /* Navbar formatting - pre-fixation*/
@@ -25,10 +35,11 @@ html, body {
 	width: 103%;
 	left: -1.5%;
 	top: -3%;
-	border-bottom: 1px solid black
 }
 /* Section 1 - Title Section */
-
+#section1{
+	border-bottom: none
+}
 .title-box{
 	position: relative;
 	top: 30%;
@@ -39,7 +50,7 @@ html, body {
 
 .title, .subtitle{
 	font-family: 'Roboto';
-	color: white
+	font-weight: 300
 }
 
 .title{
@@ -51,25 +62,33 @@ html, body {
 	margin-bottom: 3%
 }
 
-/*Section 2*/
+/*Section 2 What We Do*/
 
 #section2{
 	top: -6.2%;
-	background-color: red
+	
 }
 
 /*Section 3*/
 
 #section3{
-	top: -6.4%;
-	background-color: purple
+	top: -9.5%;
 }
 
 /*Section 4*/
 
 #section4{
-	top: -9.5%;
-	background-color: yellow;
+	top: -12.65%;
+
+}
+
+#section5{
+	top: -12.6%;
+	
+}
+
+#section6{
+	top: -12.6%;
 }
 
 /*Footer*/
@@ -77,5 +96,168 @@ html, body {
 .footer{
 	height: 20%;
 	background-color: black;
-	top: -9.5%
+	top: -12.65%
+}
+
+/*components*/
+
+	/*Columns*/
+
+.column-box{
+	display: flex;
+	flex-direction:row;
+}
+
+.column{
+	display: block;
+	width: 30%;
+	text-align: center;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+}
+
+.c-icon{
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	margin: 0 auto
+}
+
+.cheading{
+	font-family: 'Roboto';
+	font-weight: 300
+}
+
+.c-text{
+	font-family: 'Roboto';
+	font-weight: 200;
+	font-size: 1.5em
+}
+
+	/*Fact Bubles*/
+.fact-bubles-box{
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	top: 10%;
+	flex-wrap:wrap;
+	margin-top: 10%
+}
+
+.fact-buble{
+	border:2px solid black;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	padding-top: 1.5%;
+	margin: 12px
+}
+
+.fact-text{
+	font-weight: 100;
+	font-size: 1.5em
+}
+
+
+	/*Testimonials Slider*/
+
+.tcycle-box{
+	position: relative;
+	text-align: center;
+	margin-top: 10%
+}
+
+.tcycle{
+	text-align: center;
+	left: 30%
+}
+
+
+.test-text-box4{
+	width: 40%;
+	text-align: center;
+	order: 2;
+	
+}
+
+.test-text4, .test-name4{
+	line-height: 130%;
+	font-weight: 100;
+	font-size: 2.5em
+}
+
+.test-name4{
+	font-weight: 200;
+	font-size: 2em
+
+}
+
+.quote{
+	font-weight: 300;
+}
+
+	/*People Section*/
+
+.people-box{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.person{
+	height: 80%;
+	width: 20%;
+	margin: 3%;
+
+}
+
+.person-picture{
+	width:100%;
+	z-index: 1;
+	position: relative;
+}
+
+.person-info-box{
+	position: relative;
+	top: -1000%;
+	text-align: center;
+}
+
+.person-name{
+	font-size: 2.3em;
+	font-weight: 200;
+	line-height: 110%
+}
+
+.person-title{
+	position: relative;
+	font-size: .9em;
+	font-weight: 100;
+}
+
+.person-links{
+	font-size: 1.3em
+}
+
+.person-email, .person-linkedin{
+	color: black;
+	margin: 1%;
+}
+	
+	/*Subscribe Form*/
+
+.actionformbox{
+	text-align: center
+}
+
+.actionheader{
+	font-size: 2em;
+	font-weight: 200
+}
+
+.action-form input{
+	margin: 1%;
+	height: 30px;
+	width: 300px
 }

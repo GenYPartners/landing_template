@@ -7,8 +7,11 @@
 		Simply tell us what you like and we'll turn it into a personalized menu" />
 		<meta name="keywords" content="" />-->
 		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="http://malsup.github.com/jquery.tcycle.js"></script>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -17,7 +20,7 @@
 
 		<link rel="stylesheet" type="text/css" href="CSS/home.css">
 		
-		<script type="text/javascript" src="JS/home.js"></script>
+		
 		<script type="text/javascript">
 		!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
 analytics.load("nsLIxukn3VhUu2mCb2SFkpS37GSxLBW8");
@@ -35,7 +38,7 @@ analytics.page()
 			</div>
 		</div>
 
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-inverse">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -90,14 +93,178 @@ analytics.page()
 		</nav>
 
 		<div class="section" id="section2">
+			<div class="section-heading-box" id="shb2">
+				<h1 class="section-head" id="sh2"> Fact Bubles </h1>
+			</div>
 
+			<div class="fact-bubles-box" id="fbb2">
+				<div class="fact-buble" id="fb2-A">
+					<h3 class="fact-text" id="ft2-A">Some fact about something you do here. It should be interesting and engaging.</h3>
+				</div>
+				<div class="fact-buble" id="fb2-B">
+					<h3 class="fact-text" id="ft2-B">Some fact about something you do here. It should be interesting and engaging.</h3>
+				</div>
+				<div class="fact-buble" id="fb2-C">
+					<h3 class="fact-text" id="ft2-C">Some fact about something you do here. It should be interesting and engaging.</h3>
+				</div>
+				<div class="fact-buble" id="fb2-D">
+					<h3 class="fact-text" id="ft2-D">Some fact about something you do here. It should be interesting and engaging.</h3>
+				</div>
+				<div class="fact-buble" id="fb2-E">
+					<h3 class="fact-text" id="ft2-E">Some fact about something you do here. It should be interesting and engaging.</h3>
+				</div>
+
+			</div>
 		</div>
+
 		<div class="section" id="section3">
-			<h1>test</h1>
+			<div class="section-heading-box" id="shb3">
+				<h1 class="section-head" id="sh3"> Info Rows </h1>
+			</div>
+
+			<div class="column-box" id="cb3">
+				<div class="column" id="c3-a">
+					<div class="c-icon" id="c-iconA"></div>
+					<h2 id="cA-heading" class="cheading">
+						Column 1 Header
+					</h2>
+					<h3 class="c-text" id="ctextA">
+						This text will talk about what we do and all that fun stuff. Also it will link to another page that goes more into this specific area of what you do. This should be a paragraph long and the same length as the other boxes so as to make it easy to format. This text is here, so yeah.
+					</h3>
+					<div class="btn btn-default cbutton"  id="cA-button">Learn More</div>
+				</div>
+
+				<div class="column" id="c3-b">
+					<div class="c-icon" id="c-iconB"></div>
+					<h2 class="cheading" id="cB-heading">
+						Column 2 Header
+					</h2>
+					<h3 class="c-text" id="ctextB">
+						This text will talk about what we do and all that fun stuff. Also it will link to another page that goes more into this specific area of what you do. This should be a paragraph long and the same length as the other boxes so as to make it easy to format. This text is here, so yeah.
+					</h3>
+					<div class="btn btn-default cbutton" id="cB-button">Learn More</div>
+				</div>
+				<div class="column" id="c3-c">
+					<div class="c-icon" id="c-iconC"></div>
+					<h2 class="cheading" id="cC-heading">
+						Column 3 Header
+					</h2>
+					<h3 class="c-text" id="ctextC">
+						This text will talk about what we do and all that fun stuff. Also it will link to another page that goes more into this specific area of what you do. This should be a paragraph long and the same length as the other boxes so as to make it easy to format. This text is here, so yeah.
+					</h3>
+					<div class="btn btn-default cbutton" id="cC-button">Learn More</div>
+				</div>
+			</div>
 		</div>
+
+
+		
+
 		<div class="section" id="section4">
-			<h1>test</h1>
+			<div class="section-heading-box" id="shb4">
+				<h1 class="section-head" id="sh4"> Testimonials Section </h1>
+			</div>
+			<div class="tcycle-box" id="tbox4">
+				<div class="tcycle" id="tcycle4">
+						<div class="test-text-box4" id="ttb4-A">
+							<h3 class="test-text4" id="tt4-A"><span class="quote">"</span>This is an awesome landing page and I am so boss cause I built it. Luke get on my level<span class="quote">"</span></h3>
+
+							<h4 class="test-name4" id="tn4-A">- Garrett G.</h4>
+						</div>
+						<div class="test-text-box4" id="ttb4-B">
+							<h3 class="test-text4" id="tt4-B"><span class="quote">"</span>This is an awesome landing page and I am so jealous that Garrett can build awesome things<span class="quote">"</span></h3>
+
+							<h4 class="test-name4" id="tn4-B">- Luke Z.</h4>
+						</div>					
+						<div class="test-text-box4" id="ttb4-C">
+							<h3 class="test-text4" id="tt4-C"><span class="quote">"</span>I wish I knew how to code cool things, it looks like fun.<span class="quote">"</span></h3>
+
+							<h4 class="test-name4" id="tn4-C">- Ellen E.</h4>
+
+					</div>
+				</div>
+			</div>
 		</div>
+
+		<div class="section" id="section5">
+			<div class="section-heading-box" id="shb4">
+				<h1 class="section-head" id="sh4"> People Boxes </h1>
+			</div>
+			<div class="people-box" id="pb5">
+				<div class="person" id="p5-A">
+					<img class="person-picture" id="pp5-A" src="https://dl.dropboxusercontent.com/s/8fgacdoall1jea1/Optimized-FullSizeRender-4.jpg?dl=0">
+					<div class="person-info-box" id="pib5-A">
+						<h1 class="person-name" id="pn5-A">
+							Garrett Goehring
+						
+						<span class='person-title' id="pt5-A">
+							CEO
+						</span>
+
+						</h1>
+						<div class="person-links" id="pl4-A">
+						<a class="person-email" id="pe5-A" href="mailto:garrett@dineconcierge.com"><span class="email fa fa-envelope-o"></span></a>
+						<a class="person-linkedin" id="pli5-A" href="#"><span class="linkedin fa fa-linkedin"></span></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="person" id="p5-B">
+					<img class="person-picture" id="pp5-B" src="https://dl.dropboxusercontent.com/s/h0mnsk06d66yc4z/Optimized-FullSizeRender.jpg?dl=0">
+					<div class="person-info-box" id="pib5-B">
+						<h1 class="person-name" id="pn5-B">
+							Luke Zhang<br>
+						
+						<span class='person-title' id="pt5-B">
+							CMO
+						</span>
+
+						</h1>
+						<div class="person-links" id="pl4-B">
+						<a class="person-email" id="pe5-B" href="mailto:#"><span class="email fa fa-envelope-o"></span></a>
+						<a class="person-linkedin" id="pli5-B" href="#"><span class="linkedin fa fa-linkedin"></span></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="person" id="p5-C">
+					<img class="person-picture" id="pp5-C" src="https://dl.dropboxusercontent.com/s/iprbau7qy4n10iv/Optimized-FullSizeRender-5.jpg?dl=0">
+					<div class="person-info-box" id="pib5-C">
+						<h1 class="person-name" id="pn5-C">
+							Ellen Erpenbeck
+						
+						<span class='person-title' id="pt5-C">
+							COO
+						</span>
+
+						</h1>
+						<div class="person-links" id="pl4-C">
+						<a class="person-email" id="pe5-C" href="mailto:#"><span class="email fa fa-envelope-o"></span></a>
+						<a class="person-linkedin" id="pli5-C" href="#"><span class="linkedin fa fa-linkedin"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section" id="section6">
+			<div class="section-heading-box" id="shb6">
+				<h1 class="section-head" id="sh6"> Call to Action Area </h1>
+			</div>
+			<div class="actionformbox" is="afb6">
+				<h1 class="actionheader" id="ah6">
+					Some text to make you want to fill out the form.
+				</h1>
+				<form class="action-form" id="af6">
+					<input class="name-input" id="ni6" name="name6" placeholder="Name" required><br>
+					<input type="email" class="email-input" id="ei6" name="email6" placeholder="Email" required><br>
+					<input class="company-name-input" id="ci6" name="cname6" placeholder="Company Name"><br>
+					<input class="phone-input" id="pi6" name="phone6" placeholder="Phone Number" ><br>
+					<button class="btn btn-default sbutton" id="sb6">Submit</button>
+				</form>
+			</div>
+		</div>
+
 		<div class="footer">
 		</div>
 	</div>
@@ -106,7 +273,7 @@ analytics.page()
 
 
 
-
+<script type="text/javascript" src="JS/home.js"></script>
 
 </body>
 </html>
