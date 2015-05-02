@@ -1,0 +1,81 @@
+/*Page Body Formatting*/
+
+html, body {
+	margin:0;padding:0;height:100%;
+}
+
+.container{
+	background-color: red;
+	height: 100%;
+	width: 100%
+	}
+
+.section, .footer{
+	height: 100%;
+	background-color: blue;
+	position: relative;
+	top: -20px;
+	width: 103%;
+	left: -1.5%
+}
+
+/* Navbar formatting - pre-fixation*/
+
+.navbar{
+	width: 103%;
+	left: -1.5%;
+	top: -3%;
+	border-bottom: 1px solid black
+}
+/* Section 1 - Title Section */
+
+.title-box{
+	position: relative;
+	top: 30%;
+	left: 0%;
+	text-align: center;
+	
+}
+
+.title, .subtitle{
+	font-family: 'Roboto';
+	color: white
+}
+
+.title{
+	font-size: 5em
+}
+
+.subtitle{
+	font-size: 2.5em;
+	margin-bottom: 3%
+}
+
+/*Section 2*/
+
+#section2{
+	top: -6.2%;
+	background-color: red
+}
+
+/*Section 3*/
+
+#section3{
+	top: -6.4%;
+	background-color: purple
+}
+
+/*Section 4*/
+
+#section4{
+	top: -9.5%;
+	background-color: yellow;
+}
+
+/*Footer*/
+
+.footer{
+	height: 20%;
+	background-color: black;
+	top: -9.5%
+}
