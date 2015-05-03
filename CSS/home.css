@@ -1,12 +1,13 @@
 /*Page Body Formatting*/
 
 html, body {
-	margin:0;padding:0;height:100%;
+	margin:0;padding:0;height:100%;width: 100%;
 }
 
 .container{ 
 	height: 100%;
-	width: 100%
+	width: 100%;
+
 	}
 
 .section, .footer{
@@ -34,8 +35,86 @@ html, body {
 .navbar{
 	width: 103%;
 	left: -1.5%;
-	top: -3%;
+	background-color: black;
+	z-index: 100
 }
+
+/* Navbar form*/
+.nav-form{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.nav-form-text{
+	color: white;
+	font-family: 'Roboto';
+	font-weight: 200
+}
+
+.nav-form input{
+	margin: 1%;
+	height: 35px;
+	width: 300px;
+	border-radius: 5%;
+	border:  2px solid black;
+	text-align: center; 
+}
+
+.nav-form input::-webkit-input-placeholder {
+   color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center;
+}
+
+.nav-form input:-moz-placeholder { /* Firefox 18- */
+   color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center;  
+}
+
+.nav-form input::-moz-placeholder {  /* Firefox 19+ */
+ 	color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center; 
+}
+
+.nav-form input:-ms-input-placeholder {  
+   color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center; 
+
+}
+
+.tbutton{
+	height: 40%;
+	margin-top: 1%;
+
+}
+
+/* Navbar Links*/
+
+.nav-content{
+	display: none;
+	flex-direction:row;
+	justify-content:center;
+
+}
+
+.nav-link{
+	margin: 0 1%;
+
+}
+.nav-link h1{
+	font-size: 1.5em;
+	font-weight: 200;
+	color: white;
+}
+
 /* Section 1 - Title Section */
 #section1{
 	border-bottom: none
@@ -62,7 +141,9 @@ html, body {
 	margin-bottom: 3%
 }
 
-/*Section 2 What We Do*/
+/*Sections */
+
+
 
 #section2{
 	top: -6.2%;
@@ -85,9 +166,16 @@ html, body {
 #section5{
 	top: -12.6%;
 	
+	
 }
 
 #section6{
+	top: -12.6%;
+	height: 130%;
+}
+
+#section7{
+	
 	top: -12.6%;
 }
 
@@ -120,8 +208,17 @@ html, body {
 	height: 100px;
 	width: 100px;
 	border: 1px solid black;
-	margin: 0 auto
+	margin: 0 auto;
+	border-radius: 50%;
+	font-size: 7em
 }
+/*Varries by icon*/
+#c-iconA {
+	
+}
+ #c-iconC{
+ 	font-size: 6.8em;
+ }
 
 .cheading{
 	font-family: 'Roboto';
@@ -245,6 +342,68 @@ html, body {
 	margin: 1%;
 }
 	
+	/*Pricing Table*/
+.pricing-table-box{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	
+}
+.pricing-table{
+	width: 30%;
+	text-align: center;
+}
+.pricing-table-interior{
+	border: 2px solid black;
+	position: relative;
+	border-radius: 1%;
+	height: 70%;
+}
+
+.pricing-table h1{
+	font-family: 'Roboto';
+	font-weight: 100;
+	font-size: 1.5em
+}
+.pricing-table-header, .pricing-table-price, .pricing-table-row{
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+.pricing-header-text{
+	font-size: 3em!important;
+	font-weight: 300 !important;
+}
+
+.pricing-table-price{
+	height: 30%;
+	
+	vertical-align: middle;
+	padding-top: 10%
+}
+
+.pricing-price-text{
+	margin: 0;
+
+	font-size: 6.5em !important;
+	font-weight: 400 !important;
+	vertical-align: middle;
+}
+
+.money, .month{
+	font-size: .5em;
+	font-weight: 300;
+	margin: 2px
+}
+
+.pricing-table-signup-button{
+	margin-top: 3%;
+	border: 2px solid black
+}
+
 	/*Subscribe Form*/
 
 .actionformbox{
@@ -258,6 +417,53 @@ html, body {
 
 .action-form input{
 	margin: 1%;
-	height: 30px;
-	width: 300px
+	height: 35px;
+	width: 300px;
+	border-radius: 5%;
+	border:  2px solid black;
+	text-align: center; 
+}
+
+.action-form input::-webkit-input-placeholder {
+   color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center;
+}
+
+.action-form input:-moz-placeholder { /* Firefox 18- */
+   color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center;  
+}
+
+.action-form input::-moz-placeholder {  /* Firefox 19+ */
+ 	color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center; 
+}
+
+.action-form input:-ms-input-placeholder {  
+   color: black;
+   font-family: 'Roboto';
+   font-weight: 400;
+   text-align: center; 
+
+}
+
+.sbutton{
+	width: 200px;
+	height: 40px;
+	color: black;
+    font-family: 'Roboto';
+    font-weight: 600;
+    border: 2px solid black
+}
+
+.sbutton:hover{
+	color: white;
+    background-color: black;
+    border: none;
 }

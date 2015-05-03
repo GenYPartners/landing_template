@@ -2,9 +2,11 @@ $(window).scroll(function () {
     winHeight = $(window).height();
     if ($(window).scrollTop() > winHeight) {
         $(".navbar").css("background-color","black");
-        $(".navbar").css("color","white");
-        $('.navbar').attr("class","navbar-fixed-top ");
-        $("#section2").css("top","-6.35%") 
+        $(".navbar").css("position","fixed");
+        $(".navbar").css("top","-1%");
+        $(".nav-content").css("display","flex");
+        $(".nav-form").css("display","none");
+        $("#section2").css("top","-6.35%"); 
     }
 });
 

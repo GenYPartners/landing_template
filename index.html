@@ -32,64 +32,29 @@ analytics.page()
 	<div class="container">
 		<div class="section" id="section1">
 			<div class="title-box">
-				<h1 class="title">Main Tittle Goes Here</h1>
-				<h2 class="subtitle">Subtittle Goes Here</h2>
-				<div class="btn btn-default call-to-action">Call to action button</div>
+				<h1 class="title">Main Title Goes Here</h1>
+				<h2 class="subtitle">Subtitle Goes Here</h2>
+				<div class="btn btn-default call-to-action sbutton">Call to action button</div>
 			</div>
 		</div>
-
-		<nav class="navbar navbar-inverse">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#">Brand</a>
-		    </div>
-
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-		        <li><a href="#">Link</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-		          <ul class="dropdown-menu" role="menu">
-		            <li><a href="#">Action</a></li>
-		            <li><a href="#">Another action</a></li>
-		            <li><a href="#">Something else here</a></li>
-		            <li class="divider"></li>
-		            <li><a href="#">Separated link</a></li>
-		            <li class="divider"></li>
-		            <li><a href="#">One more separated link</a></li>
-		          </ul>
-		        </li>
-		      </ul>
-		      <form class="navbar-form navbar-left" role="search">
-		        <div class="form-group">
-		          <input type="text" class="form-control" placeholder="Search">
-		        </div>
-		        <button type="submit" class="btn btn-default">Submit</button>
-		      </form>
-		      <ul class="nav navbar-nav navbar-right">
-		        <li><a href="#">Link</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-		          <ul class="dropdown-menu" role="menu">
-		            <li><a href="#">Action</a></li>
-		            <li><a href="#">Another action</a></li>
-		            <li><a href="#">Something else here</a></li>
-		            <li class="divider"></li>
-		            <li><a href="#">Separated link</a></li>
-		          </ul>
-		        </li>
-		      </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
+	
+		<nav class="navbar">
+		  <div class="navform-box">
+		  	<form class="nav-form">
+		  		<h3 class="nav-form-text" id="nft1"> Get More Info!</h3>
+		  		<input class="name-input" id="ni1" name="name1" placeholder="Name" required>
+		  		<input class="email-input" id="ei1" name="email1" placeholder="Email" required>
+		  		<button class="tbutton btn btn-default" id="tb1" type="submit">Submit</button>
+		  	</form>
+		  </div>
+		  <div class="nav-content">
+		  	<a class="nav-link internal-link" id="nlA" href="#section2"><h1>Fact Bubles</h1></a>
+		  	<a class="nav-link internal-link" id="nlB" href="#section3"><h1>Info Rows</h1></a>
+		  	<a class="nav-link internal-link" id="nlC" href="#section4"><h1>Testimonial Slider</h1></a>
+		  	<a class="nav-link internal-link" id="nlD" href="#section5"><h1>People Boxes</h1></a>
+		  	<a class="nav-link internal-link" id="nlE" href="#section6"><h1>Pricing Tables</h1></a>
+		  	<a class="nav-link internal-link cta" id="nlF" href="#section7"><h1>Call to Action</h1></a>
+		  </div>
 		</nav>
 
 		<div class="section" id="section2">
@@ -124,7 +89,7 @@ analytics.page()
 
 			<div class="column-box" id="cb3">
 				<div class="column" id="c3-a">
-					<div class="c-icon" id="c-iconA"></div>
+					<div class="c-icon fa fa fa-user" id="c-iconA"></div>
 					<h2 id="cA-heading" class="cheading">
 						Column 1 Header
 					</h2>
@@ -135,7 +100,7 @@ analytics.page()
 				</div>
 
 				<div class="column" id="c3-b">
-					<div class="c-icon" id="c-iconB"></div>
+					<div class="c-icon fa fa-question" id="c-iconB"></div>
 					<h2 class="cheading" id="cB-heading">
 						Column 2 Header
 					</h2>
@@ -145,7 +110,7 @@ analytics.page()
 					<div class="btn btn-default cbutton" id="cB-button">Learn More</div>
 				</div>
 				<div class="column" id="c3-c">
-					<div class="c-icon" id="c-iconC"></div>
+					<div class="c-icon fa fa-star" id="c-iconC"></div>
 					<h2 class="cheading" id="cC-heading">
 						Column 3 Header
 					</h2>
@@ -249,18 +214,115 @@ analytics.page()
 
 		<div class="section" id="section6">
 			<div class="section-heading-box" id="shb6">
-				<h1 class="section-head" id="sh6"> Call to Action Area </h1>
+				<h1 class="section-head" id="sh6"> Pricing Tables </h1>
 			</div>
-			<div class="actionformbox" is="afb6">
-				<h1 class="actionheader" id="ah6">
+
+			<div class="pricing-table-box" id="prtb6">
+				<div class="pricing-table" id="prt6-A">
+					<div class="pricing-table-interior" id="prt16-A">
+						<div class="pricing-table-header" id="prth6-A">
+							<h1 class="pricing-header-text" id='prtht6-A'>
+								Table Header 1
+							</h1>
+						</div>
+						<div class="pricing-table-price" id="prtp6-A">
+							<h1 class="pricing-price-text" id='prt-t6-A'>
+								<span class="money">$</span>XX<span class='month'>/mo</span>
+							</h1>
+						</div>
+						<div class="pricing-table-body" id="prtb6-A">
+							<div class="pricing-table-row" id="prtr6-A1"><h1 class="pricint-table-row-text" "prtrt6-A1">Some Info on Package Goes Here</h1>
+							</div>
+							<div class="pricing-table-row" id="prtr6-A2"><h1 class="pricint-table-row-text" "prtrt6-A2">Some Info on Package Goes Here</h1>
+							</div>
+							<div class="pricing-table-row" id="prtr6-A3"><h1 class="pricint-table-row-text" "prtrt6-A3">Some Info on Package Goes Here</h1>
+							</div>
+						</div>
+					</div>
+					<button class="btn btn-default pricing-table-signup-button" id="prtsb6-A">Sign Up</button>
+				</div>
+
+
+				<div class="pricing-table" id="prt6-B">
+					<div class="pricing-table-interior" id="prt16-B">
+						<div class="pricing-table-header" id="prth6-B">
+							<h1 class="pricing-header-text" id='prtht6-B'>
+								Table Header 2
+							</h1>
+						</div>
+						<div class="pricing-table-price" id="prtp6-B">
+							<h1 class="pricing-price-text" id='prt-t6-B'>
+								<span class="money">$</span>XX<span class='month'>/mo</span>
+							</h1>
+						</div>
+						<div class="pricing-table-body" id="prtb6-B">
+							<div class="pricing-table-row" id="prtr6-B1">
+								<h1 class="pricint-table-row-text" "prtrt6-B1">Some Info on Package Goes Here</h1>
+							</div>
+							<div class="pricing-table-row" id="prtr6-B2">
+								<h1 class="pricint-table-row-text" "prtrt6-B1">Some Info on Package Goes Here</h1>
+							</div>
+							<div class="pricing-table-row" id="prtr6-B3">
+								<h1 class="pricint-table-row-text" "prtrt6-B1">Some Info on Package Goes Here</h1>
+							</div>
+							<div class="pricing-table-row" id="prtr6-B4">
+								<h1 class="pricint-table-row-text" "prtrt6-B1">Some Info on Package Goes Here</h1>
+							</div>
+						</div>
+					</div>
+					<button class="btn btn-default pricing-table-signup-button" id="prtsb6-A">Sign Up</button>
+				</div>
+
+				<div class="pricing-table" id="prt6-B">
+					<div class="pricing-table-interior" id="prt6-C">
+						<div class="pricing-table-header" id="prth6-C">
+							<h1 class="pricing-header-text" id='prtht6-C'>
+								Table Header 3
+							</h1>
+						</div>
+						<div class="pricing-table-price" id="prtp6-C">
+							<h1 class="pricing-price-text" id='prt-t6-C'>
+								<span class="money">$</span>XX<span class='month'>/mo</span>
+							</h1>
+						</div>
+						<div class="pricing-table-body" id="prtb6-C">
+							<div class="pricing-table-row" id="prtr6-C1">
+								<h1 class="pricint-table-row-text" "prtrt6-B1">Some Info on Package Goes Here</h1>
+							</div>
+							<div class="pricing-table-row" id="prtr6-C2">
+								<h1 class="pricint-table-row-text" "prtrt6-B1">Some Info on Package Goes Here</h1>
+							</div>
+							<div class="pricing-table-row" id="prtr6-C3">
+								<h1 class="pricint-table-row-text" "prtrt6-B1">Some Info on Package Goes Here</h1>
+							</div>
+							<div class="pricing-table-row" id="prtr6-C4">
+								<h1 class="pricint-table-row-text" "prtrt6-B1">Some Info on Package Goes Here</h1>
+							</div>
+							<div class="pricing-table-row" id="prtr6-C5">
+								<h1 class="pricint-table-row-text" "prtrt6-B1">Some Info on Package Goes Here</h1>
+							</div>
+						</div>
+					</div>
+					<button class="btn btn-default pricing-table-signup-button" id="prtsb6-A">Sign Up</button>
+				</div>
+
+
+			</div>
+		</div>
+		<div class="section" id="section7">
+			<div class="section-heading-box" id="shb7">
+				<h1 class="section-head" id="sh7"> Call to Action Area </h1>
+			</div>
+			<div class="actionformbox" is="afb7">
+				<h1 class="actionheader" id="ah7">
 					Some text to make you want to fill out the form.
 				</h1>
-				<form class="action-form" id="af6">
-					<input class="name-input" id="ni6" name="name6" placeholder="Name" required><br>
-					<input type="email" class="email-input" id="ei6" name="email6" placeholder="Email" required><br>
-					<input class="company-name-input" id="ci6" name="cname6" placeholder="Company Name"><br>
-					<input class="phone-input" id="pi6" name="phone6" placeholder="Phone Number" ><br>
-					<button class="btn btn-default sbutton" id="sb6">Submit</button>
+				<form class="action-form" id="af7">
+					<input class="name-input" id="ni7" name="name7" placeholder="Name" required><br>
+					<input type="email" class="email-input" id="ei7" name="email6" placeholder="Email" required><br>
+					<input class="company-name-input" id="ci7" name="cname6" placeholder="Company Name"><br>
+					<input class="phone-input" id="pi7" name="phone7" placeholder="Phone Number" ><br>
+					<button class="btn btn-default sbutton" id="sb7">Submit</button>
 				</form>
 			</div>
 		</div>
